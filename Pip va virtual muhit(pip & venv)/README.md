@@ -66,7 +66,7 @@ pip - bu Python paket menejeri. U paketlarni o'rnatish va yangilash uchun ishlat
 - Masalan:
 	- py -m pip install --upgrade requests
 
-# __loyihadagi muhitda o'rnatilgan paketlarni ro'yxatini ko'rish
+# __loyihadagi muhitda o'rnatilgan paketlarni ro'yxatini ko'rish__
 - pip freeze
 
 # __requirements(talablar)faylini yaratish va loyihada ishlatilgan paketlarni faylga saqlash__
@@ -81,8 +81,8 @@ pip - bu Python paket menejeri. U paketlarni o'rnatish va yangilash uchun ishlat
 
 
 
-- [Manba](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
-- [Manba](https://packaging.python.org/en/latest/key_projects/#pip)
+[Manba](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+[Manba](https://packaging.python.org/en/latest/key_projects/#pip)
 
 
 
