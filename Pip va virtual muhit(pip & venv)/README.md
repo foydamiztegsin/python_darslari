@@ -27,7 +27,7 @@ pip - bu Python paket menejeri. U paketlarni o'rnatish va yangilash uchun ishlat
 
 
 # __virtualenv__
-> virtualenv turli loyihalar uchun Python paketlarini boshqarish uchun ishlatiladi. Virtualenv-dan foydalanish tizim vositalarini yoki boshqa loyihalarni buzishi mumkin bo'lgan global Python paketlarini o'rnatishdan qochish imkonini beradi. Virtualenvni pip yordamida o'rnatishingiz mumkin.
+- virtualenv turli loyihalar uchun Python paketlarini boshqarish uchun ishlatiladi. Virtualenv-dan foydalanish tizim vositalarini yoki boshqa loyihalarni buzishi mumkin bo'lgan global Python paketlarini o'rnatishdan qochish imkonini beradi. Virtualenvni pip yordamida o'rnatishingiz mumkin.
 	- O'rnatish:
 		- py -m pip install --user virtualenv
 # __venv__
@@ -37,7 +37,7 @@ pip - bu Python paket menejeri. U paketlarni o'rnatish va yangilash uchun ishlat
 # __Virtual muhit yaratish__
 > venv (Python 3 uchun) va virtualenv (Python 2 uchun) turli loyihalar uchun alohida paketli o'rnatishlarni boshqarish imkonini beradi. Ular aslida "virtual" izolyatsiyalangan Python o'rnatishni yaratishga va ushbu virtual o'rnatishga paketlarni o'rnatishga imkon beradi. Loyihalarni almashtirganingizda, siz shunchaki yangi virtual muhit yaratishingiz mumkin va boshqa muhitlarda o'rnatilgan paketlarni buzish haqida tashvishlanishingiz shart emas. Python ilovalarini ishlab chiqishda har doim virtual muhitdan foydalanish tavsiya etiladi.
 
-> Virtual muhit yaratish uchun loyihangiz katalogiga o'ting va venv-ni ishga tushiring. Agar siz Python 2 dan foydalanayotgan bo'lsangiz , quyidagi buyruqlar venvbilan almashtiring.virtualenv:
+- Virtual muhit yaratish uchun loyihangiz katalogiga o'ting va venv-ni ishga tushiring. Agar siz Python 2 dan foydalanayotgan bo'lsangiz , quyidagi buyruqlar venvbilan almashtiring.virtualenv:
 	- py -m venv env
 	- Ikkinchi dalil - virtual muhitni yaratish uchun joy. 
 	Umuman olganda, siz buni loyihangizda yaratishingiz va uni chaqirishingiz mumkin env.
@@ -46,9 +46,11 @@ pip - bu Python paket menejeri. U paketlarni o'rnatish va yangilash uchun ishlat
 	>  Siz o'zingizning virtual muhit katalogingizni versiyalarni boshqarish tizimidan .gitignoreyoki shunga o'xshash usullardan foydalangan holda chiqarib 		tashlashingiz kerak.
 
 # __Virtual muhitni faollashtirish__
-> Virtual muhitda paketlarni o'rnatish yoki foydalanishni boshlashdan oldin uni faollashtirishingiz kerak bo'ladi. Virtual muhitni faollashtirish virtual muhitga xos pythonva pipbajariladigan fayllarni qobiqqa joylashtiradi PATH.
+- Virtual muhitda paketlarni o'rnatish yoki foydalanishni boshlashdan oldin uni faollashtirishingiz kerak bo'ladi. Virtual muhitni faollashtirish virtual muhitga xos pythonva pipbajariladigan fayllarni qobiqqa joylashtiradi PATH.
 	- .\env\Scripts\activate
 	- Virtual muhitingiz faollashtirilgan ekan, pip o'sha maxsus muhitga paketlarni o'rnatadi va siz Python ilovangizda paketlarni import qilishingiz va 				ishlatishingiz mumkin bo'ladi.
+
+
 
 
 
