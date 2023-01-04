@@ -82,6 +82,8 @@ pip - bu Python paket menejeri. U paketlarni o'rnatish va yangilash uchun ishlat
 
 
 [Manba](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+
+
 [Manba](https://packaging.python.org/en/latest/key_projects/#pip)
 
 
