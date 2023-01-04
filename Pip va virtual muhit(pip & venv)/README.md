@@ -49,8 +49,33 @@ pip - bu Python paket menejeri. U paketlarni o'rnatish va yangilash uchun ishlat
 - Virtual muhitda paketlarni o'rnatish yoki foydalanishni boshlashdan oldin uni faollashtirishingiz kerak bo'ladi. Virtual muhitni faollashtirish virtual muhitga xos pythonva pipbajariladigan fayllarni qobiqqa joylashtiradi PATH.
 	- .\env\Scripts\activate
 	- Virtual muhitingiz faollashtirilgan ekan, pip o'sha maxsus muhitga paketlarni o'rnatadi va siz Python ilovangizda paketlarni import qilishingiz va 				ishlatishingiz mumkin bo'ladi.
+# __Paketlarni o'rnatish__
+- Endi siz virtual muhitda bo'lganingiz uchun paketlarni o'rnatishingiz mumkin
+	- Masalan:
+		- py -m pip install requests
+		- pip so'rovlarni va uning barcha bog'liqliklarini yuklab olishi va ularni o'rnatishi kerak:
+		- jarayon yuklab olish uchun albatta internetga ulangan bo'lishingiz kerak va jarayon yakunlashini kuting...
 
 
+# __Pip da Muayyan versiyalarni o'rnatish__
+- Masalan:
+	- py -m pip install requests==2.18.4
+
+# __Pip Paketlarni yangilash__
+--upgradepip bayroq yordamida paketlarni joyida yangilashi mumkin . Masalan, eng so'nggi versiyasini requestsva uning barcha bog'liqliklarini o'rnatish uchun:
+- Masalan:
+	- py -m pip install --upgrade requests
+
+# __loyihadagi muhitda o'rnatilgan paketlarni ro'yxatini ko'rish
+- pip freeze
+
+# __requirements(talablar)faylini yaratish va loyihada ishlatilgan paketlarni faylga saqlash__
+- pip freeze > requirements.txt
+
+
+
+# __Virtual muhitni faollashtirishni to'xtatish__
+- deactivate
 
 
 
