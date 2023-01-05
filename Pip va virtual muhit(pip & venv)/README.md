@@ -17,7 +17,8 @@ pip - bu Python paket menejeri. U paketlarni o'rnatish va yangilash uchun ishlat
 
 > Pipenv - bu Python dunyosiga qadoqlash dunyosining eng yaxshisini olib kelishga qaratilgan loyiha. U Pipfile , pip va virtualenv ni bitta asboblar zanjirida birlashtiradi. U avtomatik import qilishi va xavfsizlik yordamida Pipfile'da CVE'larnirequirements.txt tekshirishi mumkin .
 
-> Pipenv foydalanuvchilarga buyruq satrida muhitlar, bog'liqliklar va import qilingan paketlarni boshqarishda yordam berishni maqsad qilgan. Bundan tashqari, u Windowsda yaxshi ishlaydi (boshqa vositalar ko'pincha kam xizmat qiladi), xesh-qulflangan bog'liqlik spetsifikatsiyalariga muvofiqligini ta'minlash uchun fayllar xeshlarini yaratadi va tekshiradi hamda paketlar va bog'liqliklarni o'chirishni osonlashtiradi.
+> Pipenv foydalanuvchilarga buyruq satrida muhitlar, bog'liqliklar va import qilingan paketlarni boshqarishda yordam berishni maqsad qilgan. 
+> Bundan tashqari, u Windowsda yaxshi ishlaydi (boshqa vositalar ko'pincha kam xizmat qiladi), xesh-qulflangan bog'liqlik spetsifikatsiyalariga muvofiqligini ta'minlash uchun fayllar xeshlarini yaratadi va tekshiradi hamda paketlar va bog'liqliklarni o'chirishni osonlashtiradi.
 
 
 # __Pipfile__
